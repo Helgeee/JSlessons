@@ -1,5 +1,7 @@
 "use strict";
 
+// Операторы
+
 console.log('arr' +  " - object");
 console.log(4 + + "5"); //унарный плюс использует один аргумент
 
