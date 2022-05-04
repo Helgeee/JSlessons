@@ -20,7 +20,7 @@
     }
 
 Проверить, чтобы все работало без ошибок в консоли */
-
+/*
 'use strict';
 
 //1.
@@ -51,4 +51,4 @@ personalMovieDB.movies[c] = d;
 console.log(personalMovieDB);
 
 
-
+*/
