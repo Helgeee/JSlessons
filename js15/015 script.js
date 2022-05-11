@@ -11,13 +11,13 @@ genres
 
 P.S. Функции вызывать не обязательно*/
 
-'use strict';
+
 
 // Код возьмите из предыдущего домашнего задания
 
 
 //1.
-
+/*
 let numberOfFilms ;
 
 function start(){
@@ -75,13 +75,12 @@ function showMyDB(hidden){
         console.log(personalMovieDB);
     } 
 }
-
+/*
 showMyDB(personalMovieDB.privat);
 //3
 function writeYourGenres() {
     for (let i =1 ; i<= 3; i++){
             personalMovieDB.genres[i-1] = prompt(`Ваш любимый жанр под номером ${i}`);
-
     }
 }
-writeYourGenres();
+writeYourGenres();*/
