@@ -2,12 +2,12 @@
 
 // Операторы
 
-console.log('arr' +  " - object");
+console.log('arr' +  " - object"); // Контактинация
 console.log(4 + + "5"); //унарный плюс использует один аргумент
 
-//Инкримент
+//Инкримент - Дикримент
 
-let incr =10,
+let incr = 10,
     decr = 10;
 
 
@@ -15,8 +15,11 @@ let incr =10,
     //incr++;
     //decr--;//постфикс
 
-console.log(incr++);
-console.log(--decr);
+console.log(incr++); // не прибавит
+console.log(--decr); // вичитание 1
+
+console.log(++incr); // прибавит
+console.log(decr--); // вичитание 1
 
 // % возращает остаток от деления
 console.log(5%2);
