@@ -29,7 +29,7 @@ hearts.forEach(item => {
 const div = document.createElement('div');
 
 const text = document.createTextNode('sedfas');
-
+w
 div.classList.add('black');
 
 document.body.append(div);
@@ -64,6 +64,12 @@ document.body.append(div);
 
 //
 
+// div.innerHTML = "<h1>hello world<h1>";
+
+// div.textContent =" Hello " ; только текс
+
 div.innerHTML = "<h1>hello world<h1>";
 
-div.textContent =" Hello ";
+div.insertAdjacentHTML('afterbegin', '<h2>hello</h2>');
+                // afterend
+                // afterbefore
