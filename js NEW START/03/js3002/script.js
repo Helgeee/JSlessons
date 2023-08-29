@@ -38,11 +38,11 @@ wrapper.addEventListener('click', (event) => {
     // console.log(event.target);
 });
 
-btns.forEach(btn =>{
-    btn.addEventListener('click', () => {
-        console.log('Hello');
-    })
-})
+// btns.forEach(btn =>{
+//     btn.addEventListener('click', () => {
+//         console.log('Hello');
+//     });
+// })
 
 
 
