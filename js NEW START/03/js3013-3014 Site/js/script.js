@@ -142,7 +142,7 @@ window.addEventListener('DOMContentLoaded', function() {
     }
     window.addEventListener('scroll', showModalByScroll);
 
-    // Классы для создание карточек меню
+    // Используем классы для создание карточек меню
 
     class MenuCard {
         constructor(src, alt, title, descr, price, parentSelector, ...classes) {
@@ -192,6 +192,7 @@ window.addEventListener('DOMContentLoaded', function() {
         'Меню "Фитнес" - это новый подход к приготовлению блюд: больше свежих овощей и фруктов. Продукт активных и здоровых людей. Это абсолютно новый продукт с оптимальной ценой и высоким качеством!',
         9,
         ".menu .container"
+     
     ).render();
 
     new MenuCard(
