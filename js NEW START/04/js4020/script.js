@@ -2,35 +2,35 @@
 
 
 
-function User(name ,age){
-    this.name = name;
-    let userAge = age;
+// function User(name ,age){
+//     this.name = name;
+//     let userAge = age;
 
-    this.say = function(){
-        console.log(`Имя пользователя: ${this.name}, возраст ${userAge}`);
-    };
-
-
-    this.getAge = function(){
-        return userAge;
-    };
-
-    this.setAge = function(age) {
-        if (tipeof age === 'number' && age > 0 && age < 110) {
-            userAge = age;
-        } else {
-            console.log('Недопустимое значение');
-        }
-    };
-}
-
-const ivan = new User('Ivan', 27);
-console.log(ivan.name= 30);
-console.log(ivan.getAge());
+//     this.say = function(){
+//         console.log(`Имя пользователя: ${this.name}, возраст ${userAge}`);
+//     };
 
 
-ivan.userAge = 30;
-ivan.name = 'Alex';
+//     this.getAge = function(){
+//         return userAge;
+//     };
+
+//     this.setAge = function(age) {
+//         if (typeof age === 'number' && age > 0 && age < 110 ) {
+//             userAge = age;
+//         } else {
+//             console.log('Недопустимое значение');
+//         }
+//     };
+// }
+
+// const ivan = new User('Ivan', 27);
+// console.log(ivan.name= 30);
+// console.log(ivan.getAge());
+
+
+// ivan.setAge(30);
+// ivan.say();
 
 
 
